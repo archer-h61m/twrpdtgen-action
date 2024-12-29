@@ -49,7 +49,7 @@ jobs:
     - name: Publish to GitHub
       uses: softprops/action-gh-release@v1
       with:
-        files: /home/runner/work/twrpdtgen-ci/twrpdtgen-ci/output/twrpdtgen-output.zip
+        files: /home/runner/work/twrpdtgen-action/twrpdtgen-action/output/twrpdtgen-output.zip
         name: Release
         tag_name: ${{ github.run_id }}
         body: |
